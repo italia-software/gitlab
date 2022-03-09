@@ -1,0 +1,92 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/publiccodeyml/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - agile-project-management
+  - collaboration
+  - content-management
+  - enterprise-project-management
+  - it-development
+  - it-security
+  - web-collaboration
+description:
+  it:
+    apiDocumentation: 'https://docs.gitlab.com/ee/api/'
+    documentation: 'https://docs.gitlab.com'
+    features:
+      - Built-in CI/CD
+      - Project Issue Board
+      - Group Issue Board
+      - Time Tracking
+      - Git LFS 2.0 support
+      - Wiki based project documentation
+      - WYSIWYG Editing in Wiki
+      - Secret Detection
+    genericName: Development environment
+    longDescription: |
+      Come tutti i software di [controllo
+      versione](https://it.wikipedia.org/wiki/Controllo_versione "Controllo
+      versione"),  GitLab permette la creazione di repository pubblici o
+      privati, in cui  gli sviluppatori possono caricare il proprio codice e
+      gestire le  modifiche alle varie versioni in contemporanea al lavoro di
+      più persone.  In GitLab è possibile lavorare parallelamente ad altre
+      persone sullo  stesso progetto senza generare conflitti, caricare il
+      proprio lavoro nel  repository remoto (operazione di _push_) e poter unire
+      alla fine le modifiche di tutti in un unico progetto (operazione di
+      _merge_). È possibile fare delle _merge request_  per il proprietario del
+      repository, oltre al tracciamento degli issue,  la possibilità di scrivere
+      commenti e allegare documenti.
+
+
+      (dalla voce di Wikipedia <a
+      href="https://it.wikipedia.org/wiki/GitLab">"GitLab"</a>, con licenza <a
+      href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+      Attribution-Share-Alike License 3.0</a>.)
+    screenshots:
+      - |-
+        https://about.gitlab.com/images/14_5/create-code-review-jupyter-notebook-diffs.png
+      - 'https://about.gitlab.com/images/14_5/explore_topics.png'
+      - 'https://about.gitlab.com/images/14_5/timezone_profile.png'
+    shortDescription: GitLab è una piattaforma web che permette la gestione di repository Git
+developmentStatus: stable
+intendedAudience:
+  scope:
+    - science-and-technology
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+landingURL: 'https://gitlab.com'
+legal:
+  license: MIT
+  mainCopyrightOwner: GitLab B.V.
+localisation:
+  availableLanguages:
+    - en
+    - zh
+    - ja
+  localisationReady: true
+logo: 'https://about.gitlab.com/images/press/logo/svg/gitlab-logo-white-rgb.svg'
+maintenance:
+  contacts:
+    - name: Dmitriy Zaporozhets
+    - name: Valery Sizov
+  type: community
+name: GitLab
+platforms:
+  - web
+releaseDate: '2022-02-22'
+roadmap: 'https://about.gitlab.com/direction/'
+softwareType: standalone/web
+softwareVersion: 14.8.0
+url: 'https://gitlab.com/gitlab-org/gitlab'
